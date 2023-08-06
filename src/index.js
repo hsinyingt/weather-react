@@ -10,5 +10,8 @@ root.render(
   <React.StrictMode>
     <App />
     <Search />
+    <a href="https://github.com/hsinyingt/weather-react">
+      GitHub open-source project
+    </a>
   </React.StrictMode>
 );
