@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
 import Search from "./Search";
 import App from "./App";
 
@@ -10,8 +11,5 @@ root.render(
   <React.StrictMode>
     <App />
     <Search />
-    <a href="https://github.com/hsinyingt/weather-react">
-      GitHub open-source project
-    </a>
   </React.StrictMode>
 );

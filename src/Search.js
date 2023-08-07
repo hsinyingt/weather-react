@@ -29,15 +29,30 @@ export default function SearchEngine() {
   }
 
   let form = (
-    <form onSubmit={handleSubmit}>
-      <input type="search" onChange={updateCity} />
-      <input type="submit" value="Search" />
-    </form>
+    <div className="container">
+      <form onSubmit={handleSubmit} class="row g-3">
+        <div class="col-md-6">
+          <input
+            type="search"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Search..."
+            onChange={updateCity}
+          />
+        </div>
+
+        <div class="col-md-6">
+          <button type="submit" class="btn btn-primary" value="Search">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
   );
 
   if (loaded) {
     return (
-      <div>
+      <div className="container">
         {form}
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
