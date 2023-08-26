@@ -1,9 +1,12 @@
-.col-2 {
+.col {
+  display: flex;
+  justify-content: center;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 .weather-forecast-temperature {
   text-align: center;
+  margin-top: 12px;
 }
 
 .weather-forecast-temperature-max {

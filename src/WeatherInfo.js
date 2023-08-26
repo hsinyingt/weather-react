@@ -8,9 +8,9 @@ export default function WeatherInfo(props) {
   return (
     <div>
       <FormattedDate date={props.data.date} />
-
-      <WeatherIcon code={props.data.icon} size={52} />
-
+      <div class="weatherIcon">
+        <WeatherIcon code={props.data.icon} size={52} />
+      </div>
       <div class="weatherDescription" id="weatherDescription">
         {props.data.description}
       </div>

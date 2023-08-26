@@ -7,6 +7,11 @@ img.currentIcon {
   margin: 40px auto 40px auto;
 }
 
+.weatherIcon {
+  display: flex;
+  justify-content: center;
+}
+
 .weatherDescription {
   display: flex;
   justify-content: center;
