@@ -23,9 +23,6 @@ export default function WeatherInfo(props) {
       <div class="humidityDisplay">Humidity: {props.data.humidity}%</div>
       <div class="windDisplay">Wind: {props.data.wind} m/h</div>
       <div class="weather-forecast" id="forecast"></div>
-      <button class="btnCurrent" id="current-location-button">
-        Weather in current location
-      </button>
     </div>
   );
 }
